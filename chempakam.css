@@ -1,0 +1,16 @@
+.welcome{
+    background-color: blanchedalmond;
+    height: 50px;
+    width: 100%;
+}
+.welcome>div{
+    width: auto;
+    height: auto;
+    position: relative;
+    animation: mymove 5s infinite;
+  }
+  
+  @keyframes mymove {
+    from {right: 100px;}
+    to {right: 200px;}
+  }
